@@ -75,7 +75,7 @@ function SignIn() {
   };
 
   return (
-    <main className="lg:max-w-xl lg:p-0 lg:space-y-14 p-6 w-full bg-gray-700 space-y-6">
+    <main className="lg:max-w-xl lg:p-0 lg:space-y-14 p-6 w-full bg-gray-100 space-y-6">
       <h1 className="text-5xl">Sign In</h1>
       <form className="space-y-6">
         <Input
