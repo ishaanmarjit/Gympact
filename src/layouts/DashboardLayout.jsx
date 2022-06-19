@@ -38,7 +38,7 @@ function DashboardLayout({ children }) {
       {showMobileMenu && (
         <div
           id="mobile-menu lg:hidden"
-          className="fixed bg-white z-10 w-screen h-screen flex-col items-center p-20 justify-center text-center space-y-20"
+          className="fixed bg-gray-900 z-10 w-screen h-screen flex-col items-center p-20 justify-center text-center space-y-20"
         >
           <NavBar links={getActiveNavLink(NAV_LINKS, pathname)} />
           <div className="text-primary cursor-pointer" onClick={signOut}>
