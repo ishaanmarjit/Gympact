@@ -46,7 +46,7 @@ function DashboardLayout({ children }) {
           </div>
         </div>
       )}
-      <div className="lg:hidden z-20 fixed w-full px-5 py-2 bg-white flex items-center justify-between">
+      <div className="lg:hidden z-20 fixed w-full px-5 py-2 bg-gray-900 flex items-center justify-between">
         <Logo />
         <div>
           <Button
