@@ -114,7 +114,7 @@ function SignIn() {
       </form>
       <Divider text="or" />
       <Button
-        value="Continue with Google"
+        value="Continue with signin"
         type="submit"
         variant="frame"
         action={handleGoogleSignIn}
