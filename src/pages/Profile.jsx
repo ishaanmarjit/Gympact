@@ -49,10 +49,10 @@ function Profile() {
           <section className="bg-gray-700 text-primary p-10 rounded-xl space-y-4">
             <form className="w-full max-w-lg space-y-4">
               <Input
-                name="email"
-                type="email"
-                label="Email"
-                value={values.email}
+                name="username"
+                type="text"
+                label="text"
+                value={values.text}
                 handleChange={handleChange}
               />
               <div className="text-primary font-semibold">
